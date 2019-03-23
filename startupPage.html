@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="styles/style.css">
+        <!-- <link type="text/css" rel="stylesheet" href="styles/normalize.css"> -->
+        <header><title>Fretboard Trainer</title></header>
+        
+    </head>
+
+
+
+    <body>
+
+            <h1>Welcome to Fretboard Trainer!</h1>
+
+            <h2>Sight Reading by Key and Scale</h2>
+            <!-- dropdown for key select -->
+            <select id="keydropdown">
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                </select>
+
+            <!-- dropdown for scale select -->
+            <select id="scaledropdown">
+                <option value="Major">Major</option>
+                <option value="Minor">Minor</option>
+                <option value="Harmonic Minor">Harmonic Minor</option>
+                <option value="Pentatonic Minor">Pentatonic Minor</option>
+                </select>
+
+            <!-- dropdown for range select -->
+            <select id="rangedropdown">
+                <!-- <option selected="selected"> </option>  -->
+                <option value="1">1 Octave</option>
+                <option value="2">2 Octaves</option>
+                <!-- <option value="">E</option>
+                <option value="F">F</option> -->
+                </select>
+
+            <h2>Sight Reading on entire Fretboard</h2>
+
+            <button id="Future" onClick="Future">You got this, Champ!</button>
+
+            <h2>Sight Reading by Position</h2>
+            <select>
+                    <option selected="selected"> </option> 
+                    <option value="i">I</option>
+                    <option value="ii">II</option>
+                    <!-- <option value="">E</option>
+                    <option value="F">F</option> -->
+                    </select>
+
+            <h2>Sight Reading by String</h2>
+            <select>
+                    <option value="1">1 Octave</option>
+                    <option value="2">2 Octaves</option>
+                    <!-- <option value="">E</option>
+                    <option value="F">F</option> -->
+                    </select>
+
+
+           
+            <input type="button" onclick="goToIndexPage()" value="GO!" />
+
+
+        <script src="script.js"></script>
+    </body>
+
+
+    </html>

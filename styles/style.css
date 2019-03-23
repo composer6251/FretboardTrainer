@@ -18,18 +18,21 @@ hr{
    margin-left: 50px;
    margin-bottom: 40px; 
 }
-hr.high-ledger-line3 {
+
+hr.ledger-lines{
+    width: 4%;
+    margin-left: 19%;
+}
+
+#high-ledger-line3 {
     margin-top: 60px;
-    width: 4%;
+
+} 
+#high-ledger-line2 {
     margin-left: 19%;
 } 
-hr.high-ledger-line2 {
-    width: 4%;
-    margin-left: 19%;
-} 
-hr.high-ledger-line1 {
-    width: 4%;
-    margin-left: 19%;
+#high-ledger-line1 {
+    
 } 
 hr.staff-line5 {
 
@@ -50,18 +53,14 @@ hr.staff-line2 {
 hr.staff-line1 {
 
 } 
-hr.low-ledger-line1 {
-    width: 4%;
-    margin-left: 19%;
+#low-ledger-line1 {
+
 } 
-hr.low-ledger-line2 {
-    width: 4%;
-    margin-left: 19%;
+#low-ledger-line2 {
+
 } 
-hr.low-ledger-line3 {
+#low-ledger-line3 {
     margin-bottom: 60px;
-    width: 4%;
-    margin-left: 19%;
 } 
 
 /*******THE CLEF*******/
@@ -75,473 +74,295 @@ hr.low-ledger-line3 {
 /*****THE NOTES******/
 
 .notes{
+      position: absolute;
       display: none;  
+      width: 3%;
+      left: 20%;
       /* visibility: hidden;   */
 }
 
 /*E3*/
 #note-box-1{
     /* display: none; */
-    position: absolute;
-    width: 3%;
+    
+   
     /* border: 1px solid black; */
     bottom: 36px;
-    left: 20%;
+
 }
 /*F3*/
 #note-box-2{
     /* display: none; */
-    position: absolute;
-    width: 3%;
     /* height: 0px; */
     /* border: 1px solid black; */
     bottom: 49px;
-    left: 20%;
 }
 /*F#3*/
 #note-box-3{
-    /* display: none; */
-    position: absolute;
-    width: 3%;
-    /* height: 0px; */
-    /* border: 1px solid black; */
     bottom: 49px;
-    left: 20%;
 }
 /*G3*/
 #note-box-4{
-    /* display: none; */
-    position: absolute;
-    width: 3%;
-    /* border: 1px solid black; */
     bottom: 64px;
-    left: 20%;
 }
 /*G#3*/
 #note-box-5{
-    /* display: none; */
-    position: absolute;
-    width: 3%;
-    /* border: 1px solid black; */
     bottom: 64px;
-    left: 20%;
 }
 /*A3*/
 #note-box-6{
-    /* display: none; */
-    position: absolute;
-    width: 3%;
-    /* border: 1px solid black; */
     bottom: 92px;
-    left: 20%;
 }
 /*A#3*/
 #note-box-7{
-    /* display: none; */
-    position: absolute;
-    width: 3%;
-    /* border: 1px solid black; */
     bottom: 92px;
-    left: 20%;
 }
 /*B3*/
 #note-box-8{
-    /* display: none; */
-    position: absolute;
-    width: 3%;
-    /* border: 1px solid black; */
     bottom: 121px;
-    left: 20%;
 }
 /*C4*/
 #note-box-9{
-    position: absolute;
-    width: 3%;
-    /* height: 11px; */
-    /* border: 1px solid black; */
     bottom: 133px;
-    left: 20%;
 }
 /*C#4*/
 #note-box-10{
-    position: absolute;
-    width: 3%;
-    /* height: 11px; */
-    /* border: 1px solid black; */
     bottom: 133px;
-    left: 20%;
 }
 /*D4*/
 #note-box-11{
-    /* display: none; */
-    position: absolute;
-    width: 3%;
-    /* height: 38px; */
-    /* border: 1px solid black; */
     bottom: 163px;
-    left: 20%;
 }
 /*D#4*/
 #note-box-12{
-    /* display: none; */
-    position: absolute;
-    width: 3%;
-    /* height: 38px; */
-    /* border: 1px solid black; */
     bottom: 163px;
-    left: 20%;
 }
 /*E4*/
 #note-box-13{
-    position: absolute;
-    width: 3%;
     height: 53px;
-    /* border: 1px solid black; */
     bottom: 176px;
-    left: 20%;
 }
 /*F4*/
 #note-box-14{
-    position: absolute;
-    width: 3%;
     height: 53px;
-    /* border: 1px solid black; */
     bottom: 192px;
-    left: 20%;
 }
 /*F#4*/
 #note-box-15{
-    position: absolute;
-    width: 3%;
     height: 53px;
-    /* border: 1px solid black; */
     bottom: 192px;
-    left: 20%;
 }
 /*G4*/
 #note-box-16{
-    position: absolute;
-    width: 3%;
     height: 95px;
-    /* border: 1px solid black; */
     bottom: 177px;
-    left: 20%;
 }
 /*G#4*/
 #note-box-17{
-    position: absolute;
-    width: 3%;
     height: 95px;
-    /* border: 1px solid black; */
     bottom: 177px;
-    left: 20%;
 }
 /*A4*/
 #note-box-18{
-    position: absolute;
-    width: 3%;
-    /* height: 122px; */
-    /* border: 1px solid black; */
     bottom: 233px;
-    left: 20%;
 }
 /*A#4*/
 #note-box-19{
-    position: absolute;
-    width: 3%;
-    /* height: 122px; */
-    /* border: 1px solid black; */
     bottom: 233px;
-    left: 20%;
 }
 /*B4*/
 #note-box-20{
-    position: absolute;
-    width: 3%;
-    /* height: 137px; */
-    /* border: 1px solid black; */
     bottom: 260px;
-    left: 20%;
-
 }
 /*C5*/
 #note-box-21{
-    position: absolute;
-    width: 3%;
-    /* height: 164px; */
-    /* border: 1px solid black; */
     bottom: 275px;
-    left: 20%;
 }
 /*C#5*/
 #note-box-22{
-    position: absolute;
-    width: 3%;
-    /* height: 164px; */
-    /* border: 1px solid black; */
     bottom: 275px;
-    left: 20%;
 }
 
 /*D5*/
 #note-box-23{
-    position: absolute;
-    width: 3%;
-    /* height: 179px; */
-    /* border: 1px solid black; */
     bottom: 302px;
-    left: 20%;
 }
 /*D#5*/
 #note-box-24{
-    position: absolute;
-    width: 3%;
-    /* height: 179px; */
-    /* border: 1px solid black; */
     bottom: 302px;
-    left: 20%;
 }
 /*E5*/
 #note-box-25{
-    position: absolute;
-    width: 3%;
-    /* height: 206px; */
-    /* border: 1px solid black; */
     bottom: 317px;
-    left: 20%;
 }
 /*F5*/
 
 #note-box-26{
-    position: absolute;
-    width: 3%;
-    /* height: 221px; */
-    /* border: 1px solid black; */
     bottom: 344px;
-    left: 20%;
 }
 /*F#5*/
 
 #note-box-27{
-    position: absolute;
-    width: 3%;
-    /* height: 221px; */
-    /* border: 1px solid black; */
     bottom: 344px;
-    left: 20%;
 }
 
 /*G5*/
 #note-box-28{
-    position: absolute;
-    width: 3%;
-    /* height: 248px; */
-    /* border: 1px solid black; */
     bottom: 359px;
-    left: 20%;
 }
 /*G#5*/
 #note-box-29{
-    position: absolute;
-    width: 3%;
-    /* height: 248px; */
-    /* border: 1px solid black; */
     bottom: 359px;
-    left: 20%;
 }
 /*A5*/
 #note-box-30{
-    position: absolute;
-    width: 3%;
-    /* height: 263px; */
-    /* border: 1px solid black; */
     bottom: 386px;
-    left: 20%;
 }
 /*A#5*/
 #note-box-31{
-    position: absolute;
-    width: 3%;
-    /* height: 263px; */
-    /* border: 1px solid black; */
     bottom: 386px;
-    left: 20%;
 }
 /*B5*/
 #note-box-32{
-    position: absolute;
-    width: 3%;
-    /* height: 290px; */
-    /* border: 1px solid black; */
     bottom: 401px;
-    left: 20%;
 }
 /*C6*/
 #note-box-33{
-    position: absolute;
-    width: 3%;
-    /* height: 305px; */
-    /* border: 1px solid black; */
     bottom: 428px;
-    left: 20%;
 }
 /*C#6*/
 #note-box-34{
-    position: absolute;
-    width: 3%;
-    /* height: 305px; */
-    /* border: 1px solid black; */
     bottom: 428px;
-    left: 20%;
 }
+/*D6*/
+#note-box-35{
+    bottom: 443px;
+}
+/*D#6*/
+#note-box-36{
+    bottom: 443px;
+}
+/*E6*/
+#note-box-37{
+    bottom: 470px;
+}
+
 
 
 /**********THE SHARPS********/
 
+.sharps{
+    /* position: absolute;
+    width: 3%; */
+    left: 17%;
+}
 
 
 /*F3*/
 #sharp-3{
-    /* display: none; */
-    position: absolute;
-    width: 3%;
-    /* height: 0px; */
-    /* border: 1px solid black; */
     bottom: 53px;
-    left: 17%;
 }
 
 /*G3*/
 #sharp-5{
-    /* display: none; */
-    position: absolute;
-    width: 3%;
-    /* border: 1px solid black; */
     bottom: 68px;
-    left: 17%;
 }
 /*A3*/
 #sharp-7{
-    position: absolute;
-    width: 3%;
-    /* border: 1px solid black; */
     bottom: 96px;
-    left: 17%;
 }
-
+/*A3*/
+#sharp-8{
+    bottom: 121px;
+}
 
 /*C4*/
 #sharp-10{
-    position: absolute;
-    width: 3%;
-    /* height: 11px; */
-    /* border: 1px solid black; */
     bottom: 137px;
-    left: 17%;
 }
 
 /*D4*/
 #sharp-12{
-    /* display: none; */
-    position: absolute;
-    width: 3%;
-    /* height: 38px; */
-    /* border: 1px solid black; */
     bottom: 167px;
-    left: 17%;
 }
 
 /*F4*/
 #sharp-15{
-    position: absolute;
-    width: 3%;
     height: 53px;
-    /* border: 1px solid black; */
     bottom: 196px;
-    left: 17%;
 }
 
 /*G4*/
 #sharp-17{
-    position: absolute;
-    width: 3%;
     height: 95px;
-    /* border: 1px solid black; */
     bottom: 181px;
-    left: 17%;
 }
 
 /*A4*/
 #sharp-19{
-    position: absolute;
-    width: 3%;
-    /* height: 122px; */
-    /* border: 1px solid black; */
     bottom: 237px;
-    left: 17%;
+}
+#sharp-20{
+    bottom: 260px
 }
 /*C5*/
 #sharp-22{
-    position: absolute;
-    width: 3%;
-    /* height: 164px; */
-    /* border: 1px solid black; */
     bottom: 279px;
-    left: 17%;
 }
 
 /*D5*/
 #sharp-24{
-    position: absolute;
-    width: 3%;
-    /* height: 179px; */
-    /* border: 1px solid black; */
     bottom: 306px;
-    left: 17%;
 }
 
 /*F5*/
 
 #sharp-27{
-    position: absolute;
-    width: 3%;
-    /* height: 221px; */
-    /* border: 1px solid black; */
     bottom: 348px;
-    left: 17%;
 }
 
 
 /*G5*/
 #sharp-29{
-    position: absolute;
-    width: 3%;
-    /* height: 248px; */
-    /* border: 1px solid black; */
     bottom: 363px;
-    left: 17%;
 }
 
 /*A5*/
 #sharp-31{
-    position: absolute;
-    width: 3%;
-    /* height: 263px; */
-    /* border: 1px solid black; */
     bottom: 391px;
-    left: 17%;
 }
 
 /*C6*/
 #sharp-34{
-    position: absolute;
-    width: 3%;
-    /* height: 305px; */
-    /* border: 1px solid black; */
     bottom: 432px;
-    left: 17%;
 }
 
+/*D6*/
+#sharp-36{
+    bottom: 447px;
+}
+
+
+/************THE FLATS**********/
+
+.flat-8{
+    display: none;
+}
+
+/*Bb3*/
+#flat-8{
+    bottom: 121px;
+}
+
+/*B4*/
+#flat-20{
+    bottom: 260px;
+}
+
+/*B5*/
+#flat-32{
+    bottom: 401px;
+}
 
 
 
@@ -608,32 +429,40 @@ hr.low-ledger-line3 {
 
 /*********LOW E STRING FRETS************/
 
+.frets{
+
+    position: absolute;
+    top: 196px;
+    background: transparent;
+    height: 31px;
+    width: 77px;
+    border: 1px solid black;
+    /* border: none !important; */
+    /* font-size: 0; */
+    /* visibility: hidden; */
+}
+
+.frets-low-E-string{
+
+}
+
 #fret-click-1{
     /* visibility: hidden; */
     background-color: transparent;
     position: absolute;
     left: 6px;
-    top: 195px;
-    background: transparent;
-    /* border: none !important; */
-    /* font-size: 0; */
-    height: 32px;
-    width: 49px;
-    border: 1px solid black;
-}
-
-#fret-click-2{
-    /* visibility: hidden; */
-    background-color: transparent;
-    position: absolute;
-    left: 54px;
     top: 196px;
     background: transparent;
     /* border: none !important; */
     /* font-size: 0; */
     height: 31px;
-    width: 77px;
+    width: 49px;
     border: 1px solid black;
+}
+
+#fret-click-2{
+
+    left: 54px;
 }
 
 #fret-click-3{

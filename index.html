@@ -222,83 +222,114 @@
                 <div class ="notes" id="note-box-34">
         
                         <img src="images/whole-note.png">
-                
+                </div>
+
+                <!--D-6-->
+                <div class ="notes" id="note-box-35">
+                        
+                        <img src="images/whole-note.png">
+                </div>
+
+                 <!--D#-6-->
+                 <div class ="notes" id="note-box-36">
+                        
+                        <img src="images/whole-note.png">
+                </div>
+
+                <!--E-6-->
+                <div class ="notes" id="note-box-37">
+                        
+                        <img src="images/whole-note.png">
                 </div> 
-                <!-- ADD DIVS FOR SHARPS -->
+                
+                <!--*****************************************
+                *****************SHARPS********************** 
+                ******************************************-->
 
-                <div class="notes" id="sharp-3">
-                        <img src="images/SharpSymbol2.png">
+                <div class="notes sharps" id="sharp-3">
+                        <img id="flat-3" src="images/SharpSymbol2.png">
                 </div>
 
-                <div class="notes" id="sharp-5">
-                        <img src="images/SharpSymbol2.png">
+                <div class="notes sharps" id="sharp-5">
+                        <img id="flat-5" src="images/SharpSymbol2.png">
                 </div>
 
-                <div class="notes" id="sharp-7">
-                        <img src="images/SharpSymbol2.png">
+                <div class="notes sharps" id="sharp-7">
+                        <img id="flat-7" src="images/SharpSymbol2.png">
+                </div>
+                <div class="notes sharps" id="sharp-8">
+                        <img id="flat-8" src="images/SharpSymbol2.png">
                 </div>
 
-                <div class="notes" id="sharp-10">
-                        <img src="images/SharpSymbol2.png">
+                <div class="notes sharps" id="sharp-10">
+                        <img id="flat-10" src="images/SharpSymbol2.png">
                 </div>
 
-                <div class="notes" id="sharp-12">
-                        <img src="images/SharpSymbol2.png">
+                <div class="notes sharps" id="sharp-12">
+                        <img id="flat-12" src="images/SharpSymbol2.png">
                 </div>
 
-                <div class="notes" id="sharp-15">
-                        <img src="images/SharpSymbol2.png">
+                <div class="notes sharps" id="sharp-15">
+                        <img id="flat-15" src="images/SharpSymbol2.png">
                 </div>
 
-                <div class="notes" id="sharp-17">
-                        <img src="images/SharpSymbol2.png">
+                <div class="notes sharps" id="sharp-17">
+                        <img id="flat-17" src="images/SharpSymbol2.png">
                 </div>
 
 
-                <div class="notes" id="sharp-19">
-                        <img src="images/SharpSymbol2.png">
+                <div class="notes sharps" id="sharp-19">
+                        <img id="flat-19" src="images/SharpSymbol2.png">
+                </div>
+                <div class="notes sharps" id="sharp-20">
+                        <img id="flat-20" src="images/SharpSymbol2.png">
                 </div>
                 
-                <div class="notes" id="sharp-22">
-                        <img src="images/SharpSymbol2.png">
-                </div>
-
-                
-                <div class="notes" id="sharp-24">
-                        <img src="images/SharpSymbol2.png">
-                </div>
-
-                
-                <div class="notes" id="sharp-27">
-                        <img src="images/SharpSymbol2.png">
-                </div>
-
-                
-                <div class="notes" id="sharp-29">
-                        <img src="images/SharpSymbol2.png">
+                <div class="notes sharps" id="sharp-22">
+                        <img id="flat-22" src="images/SharpSymbol2.png">
                 </div>
 
                 
-                <div class="notes" id="sharp-31">
-                        <img src="images/SharpSymbol2.png">
+                <div class="notes sharps" id="sharp-24">
+                        <img id="flat-24" src="images/SharpSymbol2.png">
                 </div>
 
                 
-                <div class="notes" id="sharp-34">
-                        <img src="images/SharpSymbol2.png">
+                <div class="notes sharps" id="sharp-27">
+                        <img id="flat-27" src="images/SharpSymbol2.png">
                 </div>
 
-                <hr class="high-ledger-line3" >
-                <hr class="high-ledger-line2">
-                <hr class="high-ledger-line1">
+                
+                <div class="notes sharps" id="sharp-29">
+                        <img id="flat-29" src="images/SharpSymbol2.png">
+                </div>
+
+                
+                <div class="notes sharps" id="sharp-31">
+                        <img id="flat-32" src="images/SharpSymbol2.png">
+                </div>
+
+                
+                <div class="notes sharps" id="sharp-34">
+                        <img id="flat-34" src="images/SharpSymbol2.png">
+                </div>
+                
+                
+                <div class="notes sharps" id="sharp-36">
+                        <img id="flat-36" src="images/SharpSymbol2.png">
+                </div>
+
+                <hr class="ledger-lines" id="high-ledger-line3">
+                <hr class="ledger-lines" id="high-ledger-line2">
+                <hr class="ledger-lines" id="high-ledger-line1">
                 <hr class="line5">
                 <hr class="line4">
                 <hr class="line3">
                 <hr class="line2">
                 <hr class="line1">
-                <hr class="low-ledger-line1">
-                <hr class="low-ledger-line2">
-                <hr class="low-ledger-line3">
+                <hr class="ledger-lines" id="low-ledger-line1">
+                <hr class="ledger-lines" id="low-ledger-line2">
+                <hr class="ledger-lines" id="low-ledger-line3">
 
         </div>
 
@@ -314,6 +345,38 @@
 
                 <div id="timeRemainingText">Time Remaining:</div>
 
+                <input type="button" onclick="location.href='startupPage.html';" value="BACK!" />
+
+                <!-- dropdown for scale select -->
+                <select id="keydropdown">
+                        <option value="C">C</option>
+                        <option value="C#">C#</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                        <option value="F#">F#</option>
+                        <option value="G">G</option>
+                        <option value="Bb">Bb</option>
+
+                        </select>
+                        
+                <!-- dropdown for scale select -->
+                <select id="scaledropdown">
+                        <option value="Major">Major</option>
+                        <option value="Minor">Minor</option>
+                        <option value="Harmonic Minor">Harmonic Minor</option>
+                        <option value="Pentatonic Minor">Pentatonic Minor</option>
+                        </select>
+
+                <!-- dropdown for range select -->
+                <select id="rangedropdown">
+                        <!-- <option selected="selected"> </option>  -->
+                        <option value="1">1 Octave</option>
+                        <option value="2">2 Octaves</option>
+                        <option value="3">3 Octaves</option>
+                        </select>
+                
+
                 <!-- <div id="time"></div> -->
 
 
@@ -326,9 +389,9 @@
                
                 <!--**********LOW E-STRING NOTES*************-->
                 <!--E-3-->
-                <button id="fret-click-1" onclick="compareClickAndNote(this)">E-3</button>
+                <button class="frets" id="fret-click-1" onclick="compareClickAndNote(this)">E-3</button>
                 <!--F-3-->
-                <button id="fret-click-2" onclick="compareClickAndNote(this)">F-3</button>
+                <button class="frets" id="fret-click-2" onclick="compareClickAndNote(this)">F-3</button>
                 <!--F#-3-->
                 <button id="fret-click-3" onclick="compareClickAndNote(this)">F#-3</button>
                 <!--G-3-->
